@@ -11,4 +11,4 @@ Select + → = wolf shifting
 Select + ← = bat shifting
 
 All the command move is acheivable, cross pad + attack botton.
-Backdash is too classic, might use ->-> / <-<- to acheive.
+Backdash is too classic, might use ->-> / <-<- or A+B to acheive.
