@@ -1,0 +1,11 @@
+gb arpg系統架構psudo code,須含標題,存取紀錄檔,怪物AI, 碰撞判定, 裝備狀態界面,指令攻擊系統, 主遊戲畫面等功能
+
+FUNCTION MainLoop():
+    WHILE game_is_running:
+        input = CaptureInput()          # 讀取按鍵 (十字鍵, A, B, Select, Start)
+        UpdateGameState(input)          # 更新遊戲邏輯
+        HandleCollisions()              # 處理物理碰撞
+        RenderGraphics()                # 繪製主畫面與 UI
+        WaitFrame()                     # 垂直同步 (VSYNC)
+
+
